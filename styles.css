@@ -21,6 +21,17 @@ body{
     background-color: rgb(218, 218, 218);
 }
 
+#title{
+    font-family: Orbitron;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(24, 24, 24);
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+
 .divisoria{
     display: flex;
     justify-content: center;
@@ -33,6 +44,7 @@ body{
 }
 
 .display > p{
+    margin-top: 10px;
     margin-bottom: 5px;
     background: rgb(141,207,164);
     background: linear-gradient(0deg, rgba(141,207,164,1) 0%, rgba(70,70,70,1) 100%);
